@@ -28,7 +28,7 @@ const loader = new GLTFLoader();
 
 //Load the file
 loader.load(
-  `models/${objToRender}/head.gltf`,
+  `models/${objToRender}/3f3bc0f2_de82_4e18_ad_1026111935.gltf`,
   function (gltf) {
     //If the file is loaded, add it to the scene
     object = gltf.scene;
