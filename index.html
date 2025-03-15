@@ -1,19 +1,107 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>GOLOVA</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Sotnikov</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
     <header>
-      <h1>GOLOVA</h1>
+        <div class="container">
+            <h1>Nikita Sotnikov</h1>
+            <p>Full stack & game developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-      <div id="container3D"></div>
-    </main>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Nikita, a full-stack and backend developer driven by a passion for creating high-quality software. My skills encompass building scalable applications and crafting compelling game experiences. I'm dedicated to continuous learning and exploring the intersection of technology and creativity.
+            </p>
+            <p>
+                I have experience with front-end technologies like HTML, CSS, and JavaScript, as well as back-end technologies such as Node.js, Python, .NET and Rust. I'm always looking to expand my skillset and stay up-to-date with the latest web development trends.
+            </p>
+        </div>
+    </section>
 
-    <script type="module" src="js/main.js"></script>
-  </body>
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Excel Sheet report generator for PostgeSQL</h3>
+                <p>
+                    Backend app that helps to get required data from Postgres in Excel Sheet file format.
+                </p>
+                <p><strong>Technologies:</strong> Node.js, PostgreSQL</p>
+                <a href="https://github.com/Scogur/report-requester" target="_blank">View Requester</a>
+                <a href="https://github.com/Scogur/report-generator" target="_blank">View Generator</a>
+            </div>
+            <div class="project">
+                <h3>YD public files viewer</h3>
+                <p>
+                  Flask app for operating with public files from Yandex.Disk.
+                </p>
+                <p><strong>Technologies:</strong> Flask, Python, Jinja2</p>
+                <a href="https://github.com/Scogur/yd-flask" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+              <h3>Binance Graph app</h3>
+              <p> Simple app for monitoring cryptocurrency with Binance API </p>
+              <p><strong>Technologies:</strong> .NET, Avalonia</p>
+              <a href="https://github.com/Scogur/SimpleGraph" target="_blank">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Java</li>
+                <li>.NET Framework</li>
+                <li>Rust</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Git</li>
+                <li>Responsive Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                Feel free to reach out to me for any inquiries or collaborations.
+            </p>
+            <p>Email: scogurofficial@gmail.com</p>
+            <p>Telegram: <a href="https://t.me/Scogur/" target="_blank">@Scogur</a></p>
+            <p>GitHub: <a href="https://github.com/Scogur/" target="_blank">github.com/Scogur</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nikita Sotnikov. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
